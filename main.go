@@ -35,8 +35,8 @@ func main() {
 
 	// If statement
 	if weight >= MIN_WEIGHT && weight <= MAX_WEIGHT {
-		fmt.Println("You may enter the contest.");
+		fmt.Println("You may enter the contest.")
 	} else {
-		fmt.Println("You may not enter the contest.");
+		fmt.Println("You may not enter the contest.")
 	}
 }
