@@ -20,11 +20,3 @@ if (WEIGHT >= MIN_WEIGHT && WEIGHT <= MAX_WEIGHT) {
 } else {
   console.log("You may not enter the contest.");
 }
-76
-76.5
-77
-90
-105
-105.5
-106
-210
