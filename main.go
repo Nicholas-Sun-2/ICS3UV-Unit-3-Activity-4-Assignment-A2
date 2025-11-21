@@ -34,7 +34,7 @@ func main() {
 	weight, _ = strconv.ParseFloat(weightAsString, 64) // This is the only way I found to convert strings into floats.
 
 	// If statement
-	if (weight >= MIN_WEIGHT && weight <= MAX_WEIGHT) {
+	if weight >= MIN_WEIGHT && weight <= MAX_WEIGHT {
 		fmt.Println("You may enter the contest.");
 	} else {
 		fmt.Println("You may not enter the contest.");
